@@ -26,20 +26,20 @@ A simple Laravel 11 integration with Stripe for handling payments using Stripe E
    cd StripInLarave_11
    ```
 2. **Install dependencies**
- ```bash
-     composer install
-     npm install && npm run dev
-```
+    ```bash
+    composer install
+    npm install && npm run dev
+    ```
 3. **Copy and configure .env**
-```bash
+    ```bash
     cp .env.example .env
     php artisan key:generate
-```
+    ```
 **Add your Stripe credentials in the .env file:**
-```bash
+    ```bash
     STRIPE_SECRET=sk_test_your_secret_key
     STRIPE_KEY=pk_test_your_publishable_key
-```
+    ```
 4. **Run the Laravel server**
    ```bash
    php artisan serve
