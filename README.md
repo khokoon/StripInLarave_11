@@ -35,12 +35,12 @@ A simple Laravel 11 integration with Stripe for handling payments using Stripe E
     cp .env.example .env
     php artisan key:generate
     ```
-  **Add your Stripe credentials in the .env file:**
+ 4. **Add your Stripe credentials in the .env file**
     ```bash
     STRIPE_SECRET=sk_test_your_secret_key
     STRIPE_KEY=pk_test_your_publishable_key
     ```
-4. **Run the Laravel server**
+5. **Run the Laravel server**
    ```bash
     php artisan serve
    ```
