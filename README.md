@@ -43,3 +43,4 @@ A simple Laravel 11 integration with Stripe for handling payments using Stripe E
 4. **Run the Laravel server**
    ```bash
    php artisan serve
+   ```
