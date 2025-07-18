@@ -15,13 +15,13 @@ A simple Laravel 11 integration with Stripe for handling payments using Stripe E
 
 1. **Clone the repository**
    ```bash
-       git clone https://github.com/khokoon/StripInLarave_11.git
-       cd StripInLarave_11
+    git clone https://github.com/khokoon/StripInLarave_11.git
+    cd StripInLarave_11
    ```
 2. **Install dependencies**
  ```bash
-    composer install
-    npm install && npm run dev
+     composer install
+     npm install && npm run dev
 ```
 3. **Copy and configure .env**
 ```bash
@@ -30,6 +30,6 @@ A simple Laravel 11 integration with Stripe for handling payments using Stripe E
 ```
 **Add your Stripe credentials in the .env file:**
 ```bash
-STRIPE_SECRET=sk_test_your_secret_key
-STRIPE_KEY=pk_test_your_publishable_key
+    STRIPE_SECRET=sk_test_your_secret_key
+    STRIPE_KEY=pk_test_your_publishable_key
 ```
