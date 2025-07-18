@@ -11,6 +11,13 @@ A simple Laravel 11 integration with Stripe for handling payments using Stripe E
 
 ---
 
+##🧠 How It Works
+- StripeController@index returns the Stripe form view.
+- StripeController@charge receives the Stripe token and charges the card.
+- Blade view contains Stripe Elements and JavaScript to handle token creation.
+
+
+
 ## 🚀 Installation
 
 1. **Clone the repository**
@@ -33,3 +40,6 @@ A simple Laravel 11 integration with Stripe for handling payments using Stripe E
     STRIPE_SECRET=sk_test_your_secret_key
     STRIPE_KEY=pk_test_your_publishable_key
 ```
+4. **Run the Laravel server**
+   ```bash
+   php artisan serve
