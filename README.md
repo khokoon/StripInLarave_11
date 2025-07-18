@@ -15,8 +15,8 @@ A simple Laravel 11 integration with Stripe for handling payments using Stripe E
 
 1. **Clone the repository**
    ```bash
-    git clone https://github.com/khokoon/StripInLarave_11.git
-    cd StripInLarave_11
+   git clone https://github.com/khokoon/StripInLarave_11.git
+   cd StripInLarave_11
    ```
 2. **Install dependencies**
  ```bash
